@@ -1,0 +1,10 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "Simple Node.js server for Jenkins CI/CD demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  }
+}
