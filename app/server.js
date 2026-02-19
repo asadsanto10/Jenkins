@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     );
   } else if (req.url === "/health" && req.method === "GET") {
     res.writeHead(200, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ status: "healthy", version: "2.0" }));
+    res.end(JSON.stringify({ status: "healthy", version: "3.0" }));
   } else {
     res.writeHead(404, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ error: "Not Found" }));
